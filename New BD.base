@@ -14,5 +14,5 @@ views:
         direction: ASC
     summaries: {}
     columnSize:
-      file.name: 218
-      file.tags: 246
+      file.name: 211
+      file.tags: 318
