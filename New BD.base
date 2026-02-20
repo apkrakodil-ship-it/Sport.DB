@@ -1,0 +1,18 @@
+formulas:
+  Без названия: ""
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("тренировка")
+    order:
+      - file.name
+      - file.tags
+    sort:
+      - property: тренировка
+        direction: ASC
+    summaries: {}
+    columnSize:
+      file.name: 218
+      file.tags: 246
