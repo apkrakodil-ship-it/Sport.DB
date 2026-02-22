@@ -6,7 +6,6 @@ views:
     filters:
       and:
         - file.tags.contains("упражнение")
-        - file.tags.contains("спина")
     order:
       - file.name
       - file.tags
@@ -15,5 +14,5 @@ views:
         direction: ASC
     summaries: {}
     columnSize:
-      file.name: 211
+      file.name: 224
       file.tags: 318
