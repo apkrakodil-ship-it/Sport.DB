@@ -5,8 +5,7 @@ views:
     name: Таблица
     filters:
       and:
-        - file.tags.contains("присед")
-        - file.folder.contains("03.Тренировки")
+        - file.tags.contains("тренировка")
     order:
       - file.name
       - file.tags
