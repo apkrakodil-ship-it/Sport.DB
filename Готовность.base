@@ -3,4 +3,4 @@ views:
     name: Таблица
     filters:
       and:
-        - file.tags.contains("начатое")
+        - file.tags.contains("start")
