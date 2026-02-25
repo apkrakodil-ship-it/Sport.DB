@@ -2,5 +2,9 @@ views:
   - type: table
     name: Таблица
     filters:
-      and:
+      or:
         - file.tags.contains("start")
+        - file.tags.contains("mid")
+    order:
+      - file.name
+      - file.tags
