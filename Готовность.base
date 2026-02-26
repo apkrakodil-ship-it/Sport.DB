@@ -5,9 +5,9 @@ views:
       or:
         - file.tags.contains("start")
         - file.tags.contains("mid")
-    groupBy:
-      property: file.tags
-      direction: ASC
     order:
       - file.name
       - file.tags
+    sort:
+      - property: file.tags
+        direction: ASC

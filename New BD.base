@@ -5,7 +5,7 @@ views:
     name: Таблица
     filters:
       and:
-        - file.folder.contains("гипертрофия. Упражнения")
+        - file.folder.contains("Упражнения")
     order:
       - file.name
       - file.tags
