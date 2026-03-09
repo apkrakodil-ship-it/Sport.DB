@@ -1,6 +1,6 @@
 views:
   - type: table
-    name: Таблица
+    name: Состояние заметок
     filters:
       or:
         - file.tags.contains("start")
@@ -11,3 +11,8 @@ views:
     sort:
       - property: file.tags
         direction: ASC
+  - type: table
+    name: Non-Filter
+    filters:
+      and:
+        - file.folder.contains("Non-Filter")
