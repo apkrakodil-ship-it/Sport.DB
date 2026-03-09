@@ -1,3 +1,5 @@
+formulas:
+  Без названия: ""
 views:
   - type: table
     name: Состояние заметок
@@ -16,3 +18,6 @@ views:
     filters:
       and:
         - file.folder.contains("Non-Filter")
+    order:
+      - file.name
+      - file.tags
