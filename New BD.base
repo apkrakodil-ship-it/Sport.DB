@@ -2,7 +2,7 @@ formulas:
   Без названия: ""
 views:
   - type: table
-    name: Таблица
+    name: Тренировки
     filters:
       and:
         - file.folder.contains("Упражнения")
@@ -16,3 +16,19 @@ views:
     columnSize:
       file.name: 224
       file.tags: 318
+  - type: table
+    name: Упражнения
+    filters:
+      and:
+        - file.folder.contains("02.Упражнения")
+    order:
+      - file.name
+      - file.tags
+  - type: table
+    name: Информация
+    filters:
+      and:
+        - file.folder.contains("Информация")
+    order:
+      - file.name
+      - file.tags
