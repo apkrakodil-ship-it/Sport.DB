@@ -1,1 +1,0 @@
-Bird/Dog — стоим на четвереньках. Напрягаем кор, вытягиваем ногу/руку противоположные — https://www.youtube.com/shorts/PrSoZ9tYB4w 
