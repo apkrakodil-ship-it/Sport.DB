@@ -5,7 +5,7 @@ views:
     name: Тренировки
     filters:
       and:
-        - file.folder.contains("Упражнения")
+        - file.folder.contains("Тренировки")
     order:
       - file.name
       - file.tags
