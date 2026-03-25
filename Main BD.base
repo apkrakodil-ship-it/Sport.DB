@@ -29,7 +29,6 @@ views:
     filters:
       and:
         - file.folder.contains("Информация")
-        - file.tags == []
     order:
       - file.name
       - file.tags
