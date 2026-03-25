@@ -21,3 +21,8 @@ views:
     order:
       - file.name
       - file.tags
+  - type: table
+    name: Inbox
+    filters:
+      and:
+        - file.folder == "000. Inbox"
