@@ -28,4 +28,6 @@ views:
         - file.folder == "0. Inbox"
     order:
       - file.name
-      - tags
+    sort:
+      - property: tags
+        direction: ASC
