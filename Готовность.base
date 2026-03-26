@@ -25,7 +25,7 @@ views:
     name: Inbox
     filters:
       and:
-        - file.folder == "000. Inbox"
+        - file.folder == "0. Inbox"
     order:
       - file.name
       - tags

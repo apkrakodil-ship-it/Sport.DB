@@ -20,7 +20,7 @@ views:
     name: Упражнения
     filters:
       and:
-        - file.folder.contains("02.Упражнения")
+        - file.folder.contains("1.2. Упражнения")
     order:
       - file.name
       - file.tags
