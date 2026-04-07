@@ -8,6 +8,8 @@ views:
         - file.folder.contains("Тренировки")
     order:
       - file.name
+      - tags
+      - Grade
       - file.tags
     sort:
       - property: тренировка
