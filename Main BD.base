@@ -28,14 +28,14 @@ views:
       - file.name
       - Скилл
       - tags
-      - file.tags
+      - file.ctime
     columnSize:
       note.tags: 191
   - type: table
     name: Информация
     filters:
       and:
-        - file.folder.contains("Информация")
+        - file.tags.contains("Инфо")
     order:
       - file.name
       - file.tags
