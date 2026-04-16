@@ -48,3 +48,4 @@ views:
     order:
       - file.name
       - tags
+    image: note.Poster
