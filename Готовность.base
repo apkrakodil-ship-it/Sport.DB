@@ -29,5 +29,7 @@ views:
     order:
       - file.name
     sort:
+      - property: file.name
+        direction: DESC
       - property: tags
         direction: ASC
