@@ -18,6 +18,8 @@ views:
     summaries: {}
     columnSize:
       file.name: 224
+      note.tags: 191
+      note.Grade: 87
       file.tags: 318
   - type: table
     name: Упражнения
