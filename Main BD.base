@@ -40,3 +40,11 @@ views:
       - file.name
       - file.tags
       - file.ctime
+  - type: cards
+    name: Люди
+    filters:
+      and:
+        - file.tags.contains("люди")
+    order:
+      - file.name
+      - tags
