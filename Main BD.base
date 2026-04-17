@@ -30,9 +30,10 @@ views:
       - file.name
       - Скилл
       - tags
-      - file.ctime
+      - Today
     columnSize:
       note.tags: 191
+      note.Today: 69
   - type: table
     name: Информация
     filters:
@@ -51,3 +52,16 @@ views:
       - file.name
       - tags
     image: note.Poster
+  - type: cards
+    name: Today
+    filters:
+      and:
+        - Today == true
+    order:
+      - file.name
+      - Мышцы
+      - Тип
+      - Сложность
+      - Скилл
+      - Отношение
+      - Оборудование
