@@ -21,7 +21,7 @@ views:
       note.tags: 191
       note.Grade: 87
       file.tags: 318
-  - type: table
+  - type: cards
     name: Упражнения
     filters:
       and:
@@ -34,6 +34,7 @@ views:
     columnSize:
       note.tags: 191
       note.Today: 69
+    image: note.Poster
   - type: table
     name: Информация
     filters:
