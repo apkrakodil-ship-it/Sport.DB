@@ -26,7 +26,6 @@ views:
     filters:
       and:
         - file.folder.contains("1.2. Упражнения")
-        - Оборудование.contains("безВеса")
     order:
       - file.name
       - Скилл
